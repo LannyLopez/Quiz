@@ -7,23 +7,41 @@
     <title>Quiz</title>
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
-<div class="containers">
-    
-    <form class="form" id="foam">
-        <h2>Start Quiz</h2>
-        <h3>Click The button below to start</h3>
-        <button id="btn" type="button">Start Quiz</button>
-    </form>
-    <form class="form" id="foam2">
-        <ul class="listType">
-            <li>Question 1></li>
-            <li>Question 2</li>
-            <li>Question 3</li>
-            <li>Question 4</li>
-        </ul>
-    </form>
-</div>
-
+<main>
+    <div class="containers">
+        
+        <form class="form" id="foam">
+            <h2>Start Quiz</h2>
+            <h3>Click The button below to start</h3>
+            <button id="btn" type="button">Start Quiz</button>
+        </form>
+        <form class="form" id="foam2">
+            <p class="timer">Time Left: <span id="timer-countdown">90s</span></p><br />
+            <h2>What JavaScript code allows you to add a listener</h2>
+            <ul class="listType">
+                <li><button type="button" class="other">AddListener</button></li>
+                <li><button type="button" class="other">addListener</button> </li>
+                <li><button type="button" class="correct">addEventListener</button> </li>
+                <li><button type="button" class="other">AddEventListener</button> </li>
+            </ul>
+        </form>
+        <form class="form" id="foam3">
+            <p class="timer">Time Left: <span id="timer-countdown">90s</span></p><br />
+            <h2>What JavaScript code allows you to add a listener</h2>
+            <ul class="listType">
+                <li><button type="button" class="correct">Question 1</button></li>
+                <li><button type="button" class="other">Question 2</button> </li>
+                <li><button type="button" class="other">Question 3</button> </li>
+                <li><button type="button" class="other">Question 4</button> </li>
+            </ul>
+        </form>
+        <form class="form" id="foamWrong">
+            <h2>Sorry That was incorrect</h2>
+            <p>Press the button below to continue</p>
+            <button class="continue">Continue</button>
+        </form>
+    </div>
+</main>
 
 
 

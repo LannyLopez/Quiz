@@ -22,3 +22,24 @@
     list-style: none;
     padding: 5px;
 }
+.timer{
+    font-size: 15px;
+}
+
+.other{
+    margin-bottom: 10px;
+}
+.correct{
+    margin-bottom: 10px;
+}
+#foam3{
+    max-width: 500px;
+    margin: 5px;
+    display: none;
+}
+
+#foamWrong{
+    max-width: 500px;
+    margin: 5px;
+    display: none;
+}
