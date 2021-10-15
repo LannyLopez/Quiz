@@ -1,21 +1,21 @@
 var starterForm = document.getElementById("foam")
 var starterBtn = starterForm.querySelector("#btn")
-var otherBtn = document.getElementsByClassName("other")
 var qsTwo = document.getElementById("foam2")
+var otherBtn = qsTwo.querySelector(".other")
 var qsThree = document.getElementById("foam3")
-var qsWrong = document.getElementById("wrongFoam")
+var qsWrong = document.getElementById("foamWrong")
 
 starterBtn.addEventListener("click", function(){
     starterForm.style.display = "none"
     qsTwo.style.display = "inherit"
     
     startTimer()
-})
+});
 
 
-otherBtn.addEventListener("click",function(){
+otherBtn.addEventListener("click", function(){
     qsTwo.style.display = "none"
-    qsThree.style.display = "inherit"
+    qsWrong.style.display = "inherit"
 })
 
 function startTimer() {
